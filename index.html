@@ -13,7 +13,7 @@
 	</head>
 	<body class="content">
 		<!-- Sticky navbar added in v2.0.0 -->
-			<nav id="navbar" class="hidden">
+			<nav id="navbar" class="hidden large-device">
 				<div>
 					<a class="logo" href="#home">TECHMAT</a>
 				</div>
@@ -23,6 +23,18 @@
 					<a href="#contact">Kontakt</a>
 				</div>
 			</nav>
+<!--		todo:-->
+<!--			<nav class="topnav hidden small-device">-->
+<!--				<a href="#home" class="active">Logo</a>-->
+<!--				<div id="myLinks">-->
+<!--					<a href="#news">News</a>-->
+<!--					<a href="#contact">Contact</a>-->
+<!--					<a href="#about">About</a>-->
+<!--				</div>-->
+<!--				<a  class="icon" onclick="">-->
+<!--					<i class="fa fa-bars"></i>-->
+<!--				</a>-->
+<!--			</nav>-->
 			<section id="home" class="banner full wrapper style1">
 				<a href="#contact" class="button big button-contact rotate">KONTAKT</a>
 				<div class="inner align-center center">
@@ -149,7 +161,13 @@
 								</br>
 								<h3><strong>Email: </strong><a href = "mailto: techmatbis.bialystok@gmail.com">techmatbis.bialystok@gmail.com</a></h3>
 								<h3><strong>Telefon: </strong>+48 501 461 778</h3>
-								<h3><strong>Adres: </strong>Upalna 1A/11, 15-668 Białystok</h3>
+								<h3 class="large-device"><strong>Adres: </strong>Upalna 1A/11, 15-668 Białystok</h3>
+								<h3 class="small-device">
+									<strong>Adres: </strong>
+									<a href="https://www.google.com/maps/place/TECHMAT+BIS+ANNA+SZCZERBAK,+Upalna+1A%2Flok+11,+15-668+Bia%C5%82ystok/@53.126471,23.106005,16z/data=!4m2!3m1!1s0x471ffb8b6c4d7b4f:0xe80c70c2df36b4da?hl=pl&gl=PL">
+										Upalna 1A/11, 15-668 Białystok
+									</a>
+								</h3>
 								<a href="https://www.facebook.com/Techmat-BIS-100759971430349">
 									<span class="material-icons">
 									facebook
@@ -160,12 +178,6 @@
 					</article>
 				</div>
 			</section>
-
-<!--			<a href="#home" id="home-btn" class="button hidden center-content">-->
-<!--				<span class="material-icons">-->
-<!--				keyboard_arrow_up-->
-<!--				</span>-->
-<!--			</a>-->
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="copyright">
