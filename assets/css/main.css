@@ -614,7 +614,7 @@
 		}
 
 		.wrapper.style1 {
-			background-image: url(../../images/hero_photo_powder.jpg);
+			/*background-image: url(../../images/hero_photo_powder.jpg);*/
 			background-color: #FFFFFF;
 			color: #bfbfbf;
 			background-size: cover;
@@ -626,12 +626,6 @@
 		@media screen and (max-width: 480px) {
 			.wrapper.style1 {
 				background-image: url(../../images/hero_photo_powder_480.jpg);
-				background-color: #FFFFFF;
-				color: #bfbfbf;
-				background-size: cover;
-				background-attachment: fixed;
-				background-position: center;
-				position: relative;
 
 				/*background: linear-gradient(-45deg, #ee7752, #e73c7e, #4784c2, #23d5ab);*/
 				/*background-size: 400% 400%;*/
@@ -650,6 +644,18 @@
 			/*		background-position: 0% 50%;*/
 			/*	}*/
 			/*}*/
+		}
+
+		@media (min-width: 481px) and (max-width: 1024px) {
+			.wrapper.style1 {
+				background-image: url(../../images/hero_photo_powder.jpg);
+			}
+		}
+
+		@media (min-width: 1025px) {
+			.wrapper.style1 {
+				background-image: url(../../images/hero_photo_powder.jpg);
+			}
 		}
 
 			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
