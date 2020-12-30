@@ -626,7 +626,7 @@
 		@media screen and (max-width: 480px) {
 			.wrapper.style1 {
 				background-image: url(../../images/hero_photo_powder_480.jpg);
-				/*background-attachment: scroll;*/
+				background-attachment: scroll;
 
 				/*background: linear-gradient(-45deg, #ee7752, #e73c7e, #4784c2, #23d5ab);*/
 				/*background-size: 400% 400%;*/
@@ -1701,8 +1701,8 @@
 	text-decoration: none;
 	text-transform: uppercase;
 	border-radius: 50px;
-	/*transition: transform 0.5s;*/
-	/*animation: shadow-pulse 2s infinite;*/
+	transition: transform 0.5s;
+	animation: shadow-pulse 2s infinite;
   }
 
   /*.button-more-small {*/
