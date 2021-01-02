@@ -624,7 +624,25 @@
 			}
 		}
 
-		@media (min-width: 1025px) {
+		@media (min-width: 1025px) and (max-width: 1280px) {
+			.wrapper.style1 {
+				background-image: url(../../images/hero_photo_powder_1280.jpg);
+			}
+		}
+
+		@media (min-width: 1281px) and (max-width: 1440px) {
+			.wrapper.style1 {
+				background-image: url(../../images/hero_photo_powder_1440.jpg);
+			}
+		}
+
+		@media (min-width: 1441px) and (max-width: 1680px) {
+			.wrapper.style1 {
+				background-image: url(../../images/hero_photo_powder_1680.jpg);
+			}
+		}
+
+		@media (min-width: 1681px) {
 			.wrapper.style1 {
 				background-image: url(../../images/hero_photo_powder.jpg);
 			}
