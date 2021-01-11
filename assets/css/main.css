@@ -613,38 +613,38 @@
 
 		@media screen and (max-width: 480px) {
 			.wrapper.style1 {
-				background-image: url(../../images/hero_photo_powder_480.jpg);
+				background-image: url(../../images/hero_photo_powder_480.webp);
 				background-attachment: scroll;
 			}
 		}
 
 		@media (min-width: 481px) and (max-width: 1024px) {
 			.wrapper.style1 {
-				background-image: url(../../images/hero_photo_powder_1024.jpg);
+				background-image: url(../../images/hero_photo_powder_1024.webp);
 			}
 		}
 
 		@media (min-width: 1025px) and (max-width: 1280px) {
 			.wrapper.style1 {
-				background-image: url(../../images/hero_photo_powder_1280.jpg);
+				background-image: url(../../images/hero_photo_powder_1280.webp);
 			}
 		}
 
 		@media (min-width: 1281px) and (max-width: 1440px) {
 			.wrapper.style1 {
-				background-image: url(../../images/hero_photo_powder_1440.jpg);
+				background-image: url(../../images/hero_photo_powder_1440.webp);
 			}
 		}
 
 		@media (min-width: 1441px) and (max-width: 1680px) {
 			.wrapper.style1 {
-				background-image: url(../../images/hero_photo_powder_1680.jpg);
+				background-image: url(../../images/hero_photo_powder_1680.webp);
 			}
 		}
 
 		@media (min-width: 1681px) {
 			.wrapper.style1 {
-				background-image: url(../../images/hero_photo_powder.jpg);
+				background-image: url(../../images/hero_photo_powder.webp);
 			}
 		}
 
@@ -924,7 +924,7 @@
 		.wrapper.style3 {
 			background-color: #ffffff;
 			color: #bfbfbf;
-			background-image: url(../../images/metal3.jpg);
+			background-image: url(../../images/metal3.webp);
 			background-size: cover;
 			background-attachment: fixed;
 			background-position: center;
@@ -1775,5 +1775,5 @@
 .wave {
 	position: absolute;
 	left: 0;
-	bottom: 0;
+	bottom: -2px;
 }
