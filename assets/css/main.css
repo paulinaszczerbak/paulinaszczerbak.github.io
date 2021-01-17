@@ -923,7 +923,6 @@
 		.wrapper.style3 {
 			background-color: #ffffff;
 			color: #bfbfbf;
-			background-image: url(../../images/metal3.jpg);
 			background-size: cover;
 			background-attachment: fixed;
 			background-position: center;
@@ -990,35 +989,35 @@
 				z-index: 1;
 			}
 
-		@media screen and (max-width: 1280px) {
-
-			.wrapper > .inner {
-				width: 90%;
-				/*width: 75rem;*/
-			}
-
-		}
-
-		@media screen and (max-width: 980px) {
-
-			.wrapper > .inner {
-				width: 90%;
-			}
-
+		@media (min-width: 481px) and (max-width: 1024px) {
 			.wrapper.style3 {
-				background-attachment: scroll;
+				background-image: url(../../images/metal3.jpg);
 			}
-
 		}
 
-		@media screen and (max-width: 736px) {
-
-			/*.wrapper {*/
-			/*	padding: 3rem 0 1rem 0 ;*/
-			/*}*/
-
+		@media (min-width: 1025px) and (max-width: 1280px) {
+			.wrapper.style3 {
+				background-image: url(../../images/metal3.jpg);
+			}
 		}
 
+		@media (min-width: 1281px) and (max-width: 1440px) {
+			.wrapper.style3 {
+				background-image: url(../../images/metal3.jpg);
+			}
+		}
+
+		@media (min-width: 1441px) and (max-width: 1680px) {
+			.wrapper.style3 {
+				background-image: url(../../images/metal3.jpg);
+			}
+		}
+
+		@media screen and (max-width: 1280px) {
+			.wrapper > .inner {
+				width: 90%;
+			}
+		}
 
 .logo{
 	font-family: berliSansFbRegular;
@@ -1404,9 +1403,9 @@
 				min-height: 50vh;
 			}
 
-			.banner > article {
-				background-attachment: scroll;
-			}
+			/*.banner > article {*/
+			/*	background-attachment: scroll;*/
+			/*}*/
 
 		}
 
@@ -1431,9 +1430,9 @@
 
 		}
 
-		body.is-mobile .banner > article {
-			background-attachment: scroll;
-		}
+		/*body.is-mobile .banner > article {*/
+		/*	background-attachment: scroll;*/
+		/*}*/
 
 /* Footer */
 
