@@ -641,7 +641,19 @@
 			}
 		}
 
-		@media (min-width: 1681px) {
+		@media (min-width: 1681px) and (max-width: 1920px) {
+			.wrapper.style1 {
+				background-image: url(../../images/hero_photo_powder_1920.jpg);
+			}
+		}
+
+		@media (min-width: 1921px) and (max-width: 2560px) {
+			.wrapper.style1 {
+				background-image: url(../../images/hero_photo_powder_2560.jpg);
+			}
+		}
+
+		@media (min-width: 2561px) {
 			.wrapper.style1 {
 				background-image: url(../../images/hero_photo_powder_6000.jpg);
 			}
@@ -991,25 +1003,43 @@
 
 		@media (min-width: 481px) and (max-width: 1024px) {
 			.wrapper.style3 {
-				background-image: url(../../images/metal3.jpg);
+				background-image: url(../../images/metal_1024.jpg);
 			}
 		}
 
 		@media (min-width: 1025px) and (max-width: 1280px) {
 			.wrapper.style3 {
-				background-image: url(../../images/metal3.jpg);
+				background-image: url(../../images/metal_1280.jpg);
 			}
 		}
 
 		@media (min-width: 1281px) and (max-width: 1440px) {
 			.wrapper.style3 {
-				background-image: url(../../images/metal3.jpg);
+				background-image: url(../../images/metal_1440.jpg);
 			}
 		}
 
 		@media (min-width: 1441px) and (max-width: 1680px) {
 			.wrapper.style3 {
-				background-image: url(../../images/metal3.jpg);
+				background-image: url(../../images/metal_1680.jpg);
+			}
+		}
+
+		@media (min-width: 1681px) and (max-width: 1920px) {
+			.wrapper.style3 {
+				background-image: url(../../images/metal_1920.jpg);
+			}
+		}
+
+		@media (min-width: 1921px) and (max-width: 2560px) {
+			.wrapper.style3 {
+				background-image: url(../../images/metal_2560.jpg);
+			}
+		}
+
+		@media (min-width: 2561px) {
+			.wrapper.style3 {
+				background-image: url(../../images/metal_4608.jpg);
 			}
 		}
 
