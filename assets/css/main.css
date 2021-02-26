@@ -1632,14 +1632,23 @@
 	}
 
   .button-more {
-	background-color: white;
+	/*background-color: white;*/
 	color: black;
-	opacity: 0.8;
-	text-decoration: none;
-	text-transform: uppercase;
+	opacity: 0.5;
+  	height: 52px;
+  	width: 52px;
+	/*text-decoration: none;*/
+	/*text-transform: uppercase;*/
 	border-radius: 50px;
-	transition: transform 0.5s;
+  	/*border: 2px solid black;*/
+	transition: transform 1s;
 	animation: shadow-pulse 2s infinite;
+	-moz-animation: shadow-pulse 2s infinite; /* Firefox */
+	-webkit-animation: shadow-pulse 2s infinite; /* Safari and Chrome */
+  }
+
+  .opacity-max {
+	  opacity: 1;
   }
 
   /*.button-more-small {*/
